@@ -1,1 +1,118 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BillionCards</title>
 
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#111;
+    color:white;
+}
+
+header{
+    text-align:center;
+    padding:40px 20px;
+}
+
+header h1{
+    color:#FFD700;
+    font-size:40px;
+}
+
+header p{
+    color:#ddd;
+    margin-top:10px;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+    padding:20px;
+}
+
+.card{
+    background:#1d1d1d;
+    border-radius:15px;
+    padding:20px;
+    margin-bottom:20px;
+    transition:.3s;
+    border:1px solid #333;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    border-color:#FFD700;
+}
+
+.card h2{
+    margin-bottom:10px;
+}
+
+.price{
+    color:#FFD700;
+    margin-bottom:15px;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 20px;
+    background:#FFD700;
+    color:#111;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    color:#888;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>BillionCards</h1>
+<p>Card Vending Machine</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>Pokémon</h2>
+<p class="price">100 บาท / ครั้ง</p>
+<a class="btn" href="#" target="_blank">ดู Card List</a>
+</div>
+
+<div class="card">
+<h2>One Piece</h2>
+<p class="price">100 บาท / ครั้ง</p>
+<a class="btn" href="#" target="_blank">ดู Card List</a>
+</div>
+
+<div class="card">
+<h2>Dragon Ball</h2>
+<p class="price">100 บาท / ครั้ง</p>
+<a class="btn" href="#" target="_blank">ดู Card List</a>
+</div>
+
+</div>
+
+<footer>
+© 2026 BillionCards
+</footer>
+
+</body>
+</html>
